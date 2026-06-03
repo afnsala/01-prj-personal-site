@@ -1,62 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <div class="logo">Your Name</div>
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">dev<span>.</span>portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#bio">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        <ul>
-            <li><a href="#bio">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
-    </nav>
+  <!-- ── Hero ────────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="container hero-inner">
+      <div class="hero-tag">Open to opportunities</div>
+      <h1 class="hero-h1">
+        Hi, I'm<br>
+        <span class="line-accent">Your Name</span><br>
+        Web Developer
+      </h1>
+      <p class="hero-sub">
+        A computer science student building real-world web projects — one course assignment at a time.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact"  class="btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <p class="intro">Hello, I'm</p>
-            <h1>Your Name</h1>
-            <p class="subtitle">
-                Aspiring Web Developer creating projects and learning
-                modern web technologies.
-            </p>
-
-            <a href="#bio" class="btn">Learn More</a>
+  <!-- ── Bio ─────────────────────────────────────────────── -->
+  <section id="bio">
+    <div class="container">
+      <div class="bio-grid">
+        <div class="bio-img-wrap fade-up">
+          <div class="bio-img-placeholder">
+            <div class="bio-icon"></div>
+            <span>Your Photo Here</span>
+          </div>
+          <div class="bio-accent-bar"></div>
         </div>
-    </section>
-
-    <!-- Bio Section -->
-    <section id="bio" class="section">
-        <h2>About Me</h2>
-
-        <p>
-            I am a web development student currently building projects
-            and expanding my skills in HTML, CSS, JavaScript, and modern
-            web design. This portfolio showcases my learning journey and
-            future coursework projects.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-
-        <div class="skills-grid">
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">Responsive Design</div>
-            <div class="skill-card">Git</div>
-            <div class="skill-card">Web Accessibility</div>
+        <div class="fade-up">
+          <p class="section-label">About Me</p>
+          <h2 class="bio-h2">Passionate about building things for the web.</h2>
+          <p class="bio-text">
+            I'm a web development student currently enrolled in [Your College Name]. Through this course
+            I'm learning to build responsive, accessible, and performant web experiences from the ground up.
+          </p>
+          <p class="bio-text">
+            When I'm not coding, I enjoy [your hobbies]. I'm excited to keep growing my skills and
+            eventually land a role where I can create products people love.
+          </p>
+          <div class="bio-stats">
+            <div>
+              <span class="stat-num">1st</span>
+              <span class="stat-label">Year Student</span>
+            </div>
+            <div>
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div>
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Things to Learn</span>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ──────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head fade-up">
+        <p class="section-label">What I Know</p>
+        <h2>My Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML & CSS</h3>
+          <p>Semantic markup, responsive layouts, Flexbox, CSS Grid, and animations.</p>
+          <div class="skill-tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Flexbox</span>
+            <span class="tag">Grid</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">⚙️</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, events, fetch API, and writing clean, readable scripts.</p>
+          <div class="skill-tags">
+            <span class="tag">ES6+</span>
+            <span class="tag">DOM</span>
+            <span class="tag">Fetch API</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🎨</div>
+          <h3>UI / Design</h3>
+          <p>Translating wireframes into pixel-perfect interfaces with attention to detail.</p>
+          <div class="skill-tags">
+            <span class="tag">Figma</span>
+            <span class="tag">Responsive</span>
+            <span class="tag">Accessibility</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools & Workflow</h3>
+          <p>Version control, command line basics, and modern development workflow.</p>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ────────────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head fade-up">
+        <div>
+          <p class="section-label">My Work</p>
+          <h2>Projects</h2>
+        </div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card fade-up">
+          <div class="project-thumb project-thumb-1">🗂️</div>
+          <div class="project-body">
+            <p class="project-label">Course Project #1</p>
+            <h3>Project Title Here</h3>
+            <p>A short description of what this project does, what you learned, and the technologies used.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card fade-up">
+          <div class="project-thumb project-thumb-2">💡</div>
+          <div class="project-body">
+            <p class="project-label">Course Project #2</p>
+            <h3>Project Title Here</h3>
+            <p>A short description of what this project does, what you learned, and the technologies used.</p>
+          </div>
+          <div class="project-footer">
+            <a href="#" class="project-link">Live Demo →</a>
+            <a href="#" class="project-link">GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card coming-soon fade-up">
+          <div class="project-thumb">🚧</div>
+          <div class="project-body">
+            <p class="project-label">Coming Soon</p>
+            <h3>Next Project</h3>
+            <p>Something exciting is in the works. Check back soon!</p>
+          </div>
+          <div class="project-footer"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ─────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <p class="section-label fade-up">Get in Touch</p>
+        <h2 class="fade-up">Let's work together.</h2>
+        <p class="fade-up">Have a question, opportunity, or just want to say hi? Fill out the form and I'll get back to you.</p>
+        <form class="contact-form fade-up" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me more…" required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────── -->
+  <footer>
+    <div class="container">
+      <p>Designed & built by <span>Your Name</span> · © <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script>
+    // Auto-update year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-triggered fade-up animations
+    const observer = new IntersectionObserver(
+      entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+      { threshold: 0.12 }
+    );
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Simple form submission handler
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.btn-submit');
+      btn.textContent = 'Message Sent ✓';
+      btn.style.background = '#4caf50';
+      setTimeout(() => {
+        btn.textContent = 'Send Message';
+        btn.style.background = '';
+        e.target.reset();
+      }, 3000);
+    }
+  </script>
 
 </body>
 </html>
