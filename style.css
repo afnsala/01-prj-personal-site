@@ -320,9 +320,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 .skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -393,6 +397,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  align-items: start;
 }
 
 .project-card {
@@ -402,6 +407,7 @@ nav {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   transition: transform .25s, box-shadow .25s;
 }
 .project-card:hover {
@@ -423,7 +429,7 @@ nav {
 .project-thumb-2 { background: linear-gradient(135deg, #1f2a1a, #2e5c24); }
 .project-thumb-3 { background: linear-gradient(135deg, #2a1a1a, #6e2a2a); }
 
-.project-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
+.project-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; justify-content: flex-start; }
 
 .project-label {
   font-size: .72rem;
