@@ -23,7 +23,7 @@ This site was built as part of a project to practice web development fundamental
 
 ## Viewing the Site
 
-Open `index.html` directly in a browser, or serve the folder locally with any static file server (e.g. the VS Code Live Server extension).
+Visit https://afnsala.github.io/Personal-Website/ 
 
 ## Status
 
