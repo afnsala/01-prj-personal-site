@@ -1,6 +1,30 @@
-# Project 1: Build Your Personal Website with AI!
-In this project, you will leverage AI and your knowledge of HTML and CSS to build a simple, single-page personal website that will showcase your projects.
+# Afnan Salahuddin — Personal Portfolio Website
 
-You will use AI to help you brainstorm design ideas, apply web development best practices, and troubleshoot issues, bringing your vision to life on screen! 
+A single-page personal website built with HTML and CSS (plus a bit of vanilla JavaScript) to showcase my background, skills, and projects.
 
-Launch a Codespace to get started. **Remember to Commit and Push** your project changes to GitHub from Codespaces to prevent losing progress.
+## Overview
+
+This site was built as part of a project to practice web development fundamentals — using AI to help brainstorm design ideas, apply best practices, and troubleshoot along the way.
+
+## Sections
+
+- **Hero** — intro and call-to-action buttons
+- **About** — a short bio and quick stats
+- **Skills** — an overview of technical skills (HTML/CSS, JavaScript, Python, R, UI/Design, dev tools)
+- **Projects** — cards showcasing personal projects
+- **Contact** — a form for getting in touch
+
+## Built With
+
+- HTML5
+- CSS3 (Flexbox, Grid, animations)
+- Vanilla JavaScript (scroll animations, form handling)
+- [Google Fonts](https://fonts.google.com/) — Syne & DM Sans
+
+## Viewing the Site
+
+Open `index.html` directly in a browser, or serve the folder locally with any static file server (e.g. the VS Code Live Server extension).
+
+## Status
+
+Work in progress — actively adding new projects and refining design.
