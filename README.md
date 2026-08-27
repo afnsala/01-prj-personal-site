@@ -1,4 +1,4 @@
-# Afnan Salahuddin — Personal Portfolio Website
+Personal Portfolio Website
 
 A single-page personal website built with HTML and CSS (plus a bit of vanilla JavaScript) to showcase my background, skills, and projects.
 
